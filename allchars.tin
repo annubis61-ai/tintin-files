@@ -24,4 +24,10 @@
 #action {[PARTY] Paradox} {#system {play ~/sounds/ptell.wav &> /dev/null &}}
 #action {[PARTY] Invincible} {#system {play ~/sounds/ptell.wav &> /dev/null &}}
 #action {[PARTY] Fujitsu} {#system {play ~/sounds/ptell.wav &> /dev/null &}}
-#action {[PARTY] GOLD divvy called by %0@.} {#system {play ~/sounds/divvy.wav &> /dev/null &}}
+#action {[PARTY] GOLD divvy called by %0@.} {#system {play ~/sounds/divvy.wav &> /dev/null &}
+
+#action {Seven leaves slides.} {slide rainbow}
+#action {The melting cheese finally} {wield rod;touch crown rune}
+#action {[PARTY] Seven: 40tag} {40tag}
+#action {[PARTY] Seven: mission return} {mission return}
+#action {[PARTY] Seven: mission ask} {mission ask}
