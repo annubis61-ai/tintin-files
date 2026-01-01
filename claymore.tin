@@ -1,0 +1,24 @@
+#alias {aaa} {actuate animal affinity}
+#alias {aac} {actuate astral construct 3}
+#alias {adem} {actuate demoralize}
+#alias {abc} {actuate bear claw}
+#alias {ablur} {actuate blur}
+#alias {abody} {actuate body adjustment}
+#alias {abolt} {actuate bolt}
+#alias {acon} {actuate concussion}
+#alias {adv} {advance}
+#alias {aival} {actuate improved valor}
+#alias {aev} {actuate expanded vision}
+#alias {apre} {actuate combat prescience}
+#alias {actpil} {activate pillar}
+#alias {atal} {actuate talons}
+#alias {ajaw} {actuate iron jaw}
+#alias {ahustle} {actuate hustle actuate demoralize, actuate astral construct 3, actuate blur}
+#alias {psic} {psichat main}
+#alias {pw} {psiwield}
+#alias {upw} {unpsiwield}
+
+#action {Your combat prescience has expired} {apre}
+#action {Your steel jaw has expired.} {ajaw}
+#action {Your valor has expired.} {aival}
+#actiom {Your talons has expired.} {atal}

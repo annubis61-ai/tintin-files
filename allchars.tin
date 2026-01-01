@@ -1,0 +1,13 @@
+#alias {40tag} {enter AbsquatulateBumbershootShenanigan}
+#alias {40tag2} {enter PettifoggerDoozyHobbledehoy}
+#alias {ga} {get all}
+#alias {dupeitem %0} {(duplicate item %0}
+#alias {kp} {kill player}
+#alias {makegboots} {open figurine;
+insert green near feet;
+close figurine;
+insert green;
+remove boots;
+wear boots;}
+#alias {makeoboots} {open figurine; insert stone near feet; close figurine; insert stone;remove boots; wear boots}
+#alias {makeggloves} {open figurine;insert green near hands;close figurine;insert green;remove gloves;wear gloves}
