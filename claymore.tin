@@ -17,8 +17,10 @@
 #alias {psic} {psichat main}
 #alias {pw} {psiwield}
 #alias {upw} {unpsiwield}
+#alias {combatassist} {cassist $myassist;reflex unpause;#delay {3};ahustle}
 
 #action {Your combat prescience has expired} {apre}
 #action {Your steel jaw has expired.} {ajaw}
 #action {Your valor has expired.} {aival}
 #actiom {Your talons has expired.} {atal}
+#action {You don't need to convert at this time!} {reflex pause}
