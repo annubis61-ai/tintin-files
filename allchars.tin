@@ -20,8 +20,8 @@
 #action {Target tells you 'heal'} {#system {play ~/sounds/heal.wav &> /dev/null &}}
 #action {[PARTY] Elektra} {#system {play ~/sounds/ptell.wav &> /dev/null &}}
 #action {[PARTY] Seven} {#system {play ~/sounds/ptell.wav &> /dev/null &}}
-#action {[PARTY] Bro} {#system {play ~/sounds/ptell.wav &> /dev/null &}
+#action {[PARTY] Bro} {#system {play ~/sounds/ptell.wav &> /dev/null &}{
 #action {[PARTY] Paradox} {#system {play ~/sounds/ptell.wav &> /dev/null &}}
 #action {[PARTY] Invincible} {#system {play ~/sounds/ptell.wav &> /dev/null &}}
 #action {[PARTY] Fujitsu} {#system {play ~/sounds/ptell.wav &> /dev/null &}}
-#action {[PARTY] GOLD divvy called by %0@.} {#system {play ~/sounds/divvy.wav &> /dev/null &}}@
+#action {[PARTY] GOLD divvy called by %0@.} {#system {play ~/sounds/divvy.wav &> /dev/null &}}
