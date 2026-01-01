@@ -3,11 +3,11 @@
 #alias {ga} {get all}
 #alias {dupeitem %0} {(duplicate item %0}
 #alias {kp} {kill player}
-#alias {makegboots} {open figurine;
-insert green near feet;
-close figurine;
-insert green;
-remove boots;
-wear boots;}
+#alias {makegboots} {open figurine;insert green near feet;close figurine;insert green;remove boots;wear boots;}
 #alias {makeoboots} {open figurine; insert stone near feet; close figurine; insert stone;remove boots; wear boots}
 #alias {makeggloves} {open figurine;insert green near hands;close figurine;insert green;remove gloves;wear gloves}
+#alias {makeggloves} {open figurine;insert stone near hands;close figurine;insert stone;remove gloves;wear gloves}
+#alias {makeghelmet} {open figurine;insert green near head;close figurine;insert green;remove helmet;wear helmet}
+#alias {makeohelmet} {open figurine;insert stone near head;close figurine;insert stone;remove helmet;wear helmet}
+#alias {makegbp} {open figurine;insert green near chest;close figurine;insert green;remove breastplate;wear armour}
+#alias {makeobp} {open figurine;insert stone near chest;close figurine;insert stone;remove breastplate;wear armour}
