@@ -1,4 +1,4 @@
-#alias {40tag} {enter AbsquatulateBumbershootShenanigan}
+#alias {40tag} {enter $40tagcode}
 #alias {40tag2} {enter PettifoggerDoozyHobbledehoy}
 #alias {ga} {get all}
 #alias {dupitem %0} {(duplicate item %0}
@@ -13,7 +13,9 @@
 #alias {makeobp} {open figurine;insert stone near chest;close figurine;insert stone;remove breastplate;wear armour}
 #alias {nexta} {onward;doorway;kill angel}
 #alias {phist} {ptell -h}
+
 #alias {setassist) {#var myassist %1;#showme Assist set to $myassist.}
+#alias {set40tag) {#var 40tagcode %1;#showme 40tag set to $40tagcode.}
 
 
 #alias {toknights} {n;n;n;n;n;n;n;n;n;n;n;n;leave;n;n;n;n;w;w;w;w;w;w;w;w;enter;s;s;s;search grass; squeeze through;s;sw;se;s;s;s;s;se}
@@ -30,7 +32,7 @@
 #action {[PARTY] GOLD divvy called by %0@.} {#system {play ~/sounds/divvy.wav &> /dev/null &}
 #action {You die.} {#system {play ~/sounds/death.wav &> /dev/null &}}
 
-#action {Seven leaves slides.} {slide rainbow}
+#action {$myassist leaves slides.} {slide rainbow}
 #action {The melting cheese finally} {wield rod;touch crown rune}
 #action {[PARTY] %0: 40tag} {40tag}
 #action {[PARTY] %0: mission return} {mission return}
