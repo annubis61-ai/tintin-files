@@ -13,6 +13,9 @@
 #alias {makeobp} {open figurine;insert stone near chest;close figurine;insert stone;remove breastplate;wear armour}
 #alias {nexta} {onward;doorway;kill angel}
 #alias {phist} {ptell -h}
+#alias {setassist) {#var myassist %1;#showme Assist set to $myassist.}
+
+
 #alias {toknights} {n;n;n;n;n;n;n;n;n;n;n;n;leave;n;n;n;n;w;w;w;w;w;w;w;w;enter;s;s;s;search grass; squeeze through;s;sw;se;s;s;s;s;se}
 #alias {toeternals} {shop;w;s;w;s;s;s;e;s;w;w;s;w;w;s;portal}
 
@@ -36,6 +39,7 @@
 #action {[PARTY] %0: tear} {tear card}
 #action {[PARTY] %0: start} {press start}
 
+#action {$myassist attacks %1} {combatassist}
 #action {Out of nowhere a crazed hockey fan leaps towards the Cup.} {usecorpse}
 #action {The coffin expels a corpse!} {usecorpse}
 #action {All your corpses are already bigger than what is here.} {usecorpse}
