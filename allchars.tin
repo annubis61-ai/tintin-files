@@ -21,16 +21,16 @@
 #alias {toknights} {n;n;n;n;n;n;n;n;n;n;n;n;leave;n;n;n;n;w;w;w;w;w;w;w;w;enter;s;s;s;search grass; squeeze through;s;sw;se;s;s;s;s;se}
 #alias {toeternals} {shop;w;s;w;s;s;s;e;s;w;w;s;w;w;s;portal}
 
-#action {LT:} {#system {play ~/sounds/linktell.wav &> /dev/null &}}
-#action {Target tells you 'heal'} {#system {play ~/sounds/heal.wav &> /dev/null &}}
-#action {[PARTY] Elektra} {#system {play ~/sounds/ptell.wav &> /dev/null &}}
-#action {[PARTY] Seven} {#system {play ~/sounds/ptell.wav &> /dev/null &}}
-#action {[PARTY] Bro} {#system {play ~/sounds/ptell.wav &> /dev/null &}}
-#action {[PARTY] Paradox} {#system {play ~/sounds/ptell.wav &> /dev/null &}}
-#action {[PARTY] Invincible} {#system {play ~/sounds/ptell.wav &> /dev/null &}}
-#action {[PARTY] Fujitsu} {#system {play ~/sounds/ptell.wav &> /dev/null &}}
-#action {[PARTY] GOLD divvy called by %0.} {#system {play ~/sounds/divvy.wav &> /dev/null &}}
-#action {You die.} {#system {play ~/sounds/death.wav &> /dev/null &}}
+#action {LT:} {#system {mpv ~/sounds/linktell.wav &> /dev/null &}}
+#action {Target tells mpv 'heal'} {#system {mpv ~/sounds/heal.wav &> /dev/null &}}
+#action {[PARTY] Elektra} {#system {mpv ~/sounds/ptell.wav &> /dev/null &}}
+#action {[PARTY] Seven} {#system {mpv ~/sounds/ptell.wav &> /dev/null &}}
+#action {[PARTY] Bro} {#system {mpv ~/sounds/ptell.wav &> /dev/null &}}
+#action {[PARTY] Paradox} {#system {mpv ~/sounds/ptell.wav &> /dev/null &}}
+#action {[PARTY] Invincible} {#system {mpv ~/sounds/ptell.wav &> /dev/null &}}
+#action {[PARTY] Fujitsu} {#system {mpv ~/sounds/ptell.wav &> /dev/null &}}
+#action {[PARTY] GOLD divvy called by %0.} {#system {mpv ~/sounds/divvy.wav &> /dev/null &}}
+#action {You die.} {#system {mpv ~/sounds/death.wav &> /dev/null &}}
 
 #action {$myassist leaves slides.} {slide rainbow}
 #action {The melting cheese finally} {wield rod;touch crown rune}
