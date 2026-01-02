@@ -3,7 +3,7 @@
 #alias {ga} {get all}
 #alias {dupitem %0} {(duplicate item %0}
 #alias {kp} {kill player}
-#alias {makegboots} {open figurine;insert green near feet;close figurine;insert green;remove boots;wear boots;}
+#alias {makegboots} {open figurine;insert green near feet;close figurine;insert green;remove boots;wear boots}
 #alias {makeoboots} {open figurine; insert stone near feet; close figurine; insert stone;remove boots; wear boots}
 #alias {makeggloves} {open figurine;insert green near hands;close figurine;insert green;remove gloves;wear gloves}
 #alias {makeggloves} {open figurine;insert stone near hands;close figurine;insert stone;remove gloves;wear gloves}
@@ -14,8 +14,8 @@
 #alias {nexta} {onward;doorway;kill angel}
 #alias {phist} {ptell -h}
 
-#alias {setassist) {#var myassist %1;#showme Assist set to $myassist.}
-#alias {set40tag) {#var 40tagcode %1;#showme 40tag set to $40tagcode.}
+#alias {setassist} {#var myassist %1;#showme Assist set to $myassist.}
+#alias {set40tag} {#var 40tagcode %1;#showme 40tag set to $40tagcode.}
 
 
 #alias {toknights} {n;n;n;n;n;n;n;n;n;n;n;n;leave;n;n;n;n;w;w;w;w;w;w;w;w;enter;s;s;s;search grass; squeeze through;s;sw;se;s;s;s;s;se}
