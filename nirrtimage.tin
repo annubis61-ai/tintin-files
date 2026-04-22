@@ -6,9 +6,10 @@
 
 
 #alias {ccc} {cast cone of cold}
-#alias {cpws}$ {cast power word stun}
+#alias {cpws} {cast power word stun}
 #alias {ccg} {cast create golem}
 #alias {cgs} {cast giant strength}
-#aliss {cstr} {csst strength}
+#aliss {cstr} {cast strength}
 #alias {cfm} {cast focus mind}
+#alias {ch} {cast haste}
              
