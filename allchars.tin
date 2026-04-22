@@ -6,7 +6,7 @@
 #alias {makegboots} {open figurine;insert green near feet;close figurine;insert green;remove boots;wear boots}
 #alias {makeoboots} {open figurine; insert stone near feet; close figurine; insert stone;remove boots; wear boots}
 #alias {makeggloves} {open figurine;insert green near hands;close figurine;insert green;remove gloves;wear gloves}
-#alias {makeggloves} {open figurine;insert stone near hands;close figurine;insert stone;remove gloves;wear gloves}
+#alias {makeogloves} {open figurine;insert stone near hands;close figurine;insert stone;remove gloves;wear gloves}
 #alias {makeghelmet} {open figurine;insert green near head;close figurine;insert green;remove helmet;wear helmet}
 #alias {makeohelmet} {open figurine;insert stone near head;close figurine;insert stone;remove helmet;wear helmet}
 #alias {makegbp} {open figurine;insert green near chest;close figurine;insert green;remove breastplate;wear armour}
@@ -20,6 +20,12 @@
 
 #alias {toknights} {n;n;n;n;n;n;n;n;n;n;n;n;leave;n;n;n;n;w;w;w;w;w;w;w;w;enter;s;s;s;search grass; squeeze through;s;sw;se;s;s;s;s;se}
 #alias {toeternals} {shop;w;s;w;s;s;s;e;s;w;w;s;w;w;s;portal}
+#slias {toforestofcharms} {enter;n;n;n;w;s;pull tab;w;s;s;s;e;tear}
+#alias {charm1} {e;e;search tree;kill squirrel;get red balloon charm}
+#alias {charm2} {e;e;e;climb;search rocks;get bag;search rocks;get pink heart charm}
+#alias {charm3} {se;n;search river;get key;s;w;search tree;kill mimicrywood;get unicorn charm}
+#alias {charm4} {w;search rock;kill squirrel;search rock;get purple horseshoe charm}
+#alias {charm5} {w;w;w;enter ring;s,  se, e, ne, n, kill guardian, get rainbow charm }
 
 #action {LT:} {#system {play-audio ~/sounds/linktell.wav &> /dev/null &}}
 #action {Target tells mpv 'heal'} {#system {play-audio ~/sounds/heal.wav &> /dev/null &}}
