@@ -27,7 +27,9 @@
 #alias {charm4} {w;search rock;kill squirrel;search rock;get purple horseshoe charm}
 #alias {charm5} {w;w;w;enter ring;s;se;e;ne;n;kill guardian;get rainbow charm}
 #alias {charm6} {s;sw;w;nw;n;portal;w;w;w;w;search tree;get green hat charm}
-#alias {charm7} { }
+#alias {charm7} {w;kill squirrel;get yellow star charm}
+#alias {charm8} {n;n;e;e;e;e;snatch moon}
+#alias [tolucky} {slide;e;e;e;e;e}
 
 #action {LT:} {#system {play-audio ~/sounds/linktell.wav &> /dev/null &}}
 #action {Target tells mpv 'heal'} {#system {play-audio ~/sounds/heal.wav &> /dev/null &}}
