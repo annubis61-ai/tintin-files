@@ -1,0 +1,14 @@
+#action {^The golem shudders for a moment} {cast create golem}
+#action {^You don't have any basic construction materials!} {ffetch materials}
+
+#alias {combatassist} {cassist $myqssist; #delay 3 cast power word stun; #delay 3 cast slow}
+
+
+
+#alias {ccc} {cast cone of cold}
+#alias {cpws}$ {cast power word stun}
+#alias {ccg} {cast create golem}
+#alias {cgs} {cast giant strength}
+#aliss {cstr} {csst strength}
+#alias {cfm} {cast focus mind}
+             
