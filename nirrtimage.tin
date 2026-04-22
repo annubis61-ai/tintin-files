@@ -12,4 +12,6 @@
 #aliss {cstr} {cast strength}
 #alias {cfm} {cast focus mind}
 #alias {ch} {cast haste}
+
+#alias {getstarted} {cast find familiar;#delay 3 cast focus mind;#delay 3 shoo golem;#delay 3 cast summon golem}
              
