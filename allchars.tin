@@ -30,6 +30,12 @@
 #alias {charm7} {w;kill squirrel;get yellow star charm}
 #alias {charm8} {n;n;e;e;e;e;snatch moon}
 #alias [tolucky} {slide;e;e;e;e;e}
+#alias {torzell} {portal;#12 w;leave; #3 w;#4 n;enter}
+#alias {zelltohouse} {leave;#4 s; #3 e;enter;#12 e;)portal}
+#alias {tosecz} {sci;enter;u;n;n;n;w;n;play} 
+
+
+
 
 #action {LT:} {#system {play-audio ~/sounds/linktell.wav &> /dev/null &}}
 #action {Target tells mpv 'heal'} {#system {play-audio ~/sounds/heal.wav &> /dev/null &}}
