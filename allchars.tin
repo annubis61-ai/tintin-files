@@ -25,7 +25,9 @@
 #alias {charm2} {e;e;e;climb;search rocks;get bag;search rocks;get pink heart charm}
 #alias {charm3} {se;n;search river;get key;s;w;search tree;kill mimicrywood;get unicorn charm}
 #alias {charm4} {w;search rock;kill squirrel;search rock;get purple horseshoe charm}
-#alias {charm5} {w;w;w;enter ring;s,  se, e, ne, n, kill guardian, get rainbow charm }
+#alias {charm5} {w;w;w;enter ring;s;se;e;ne;n;kill guardian;get rainbow charm}
+#alias {charm6} {s;sw;w;nw;n;portal;w;w;w;w;search tree;get green hat charm}
+#alias {charm7} { }
 
 #action {LT:} {#system {play-audio ~/sounds/linktell.wav &> /dev/null &}}
 #action {Target tells mpv 'heal'} {#system {play-audio ~/sounds/heal.wav &> /dev/null &}}
