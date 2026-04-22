@@ -49,6 +49,13 @@
 #action {You die.} {#system {play-audio ~/sounds/death.wav &> /dev/null &}}
 
 #action {$myassist leaves slides.} {slide rainbow}
+#acrion {$myassist inputs something on the keyboard.} {input exit}
+#action {$myassist leaves into the velvet hat.} {grab hat}
+
+
+
+
+
 #action {The melting cheese finally} {wield rod;touch crown rune}
 #action {[PARTY] %%0: 40tag} {40tag}
 #action {[PARTY] %%0: mission return} {mission return}
